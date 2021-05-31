@@ -19,27 +19,21 @@ data=data.drop(axis=1,labels="Unnamed: 0")
 
 data=data.dropna()
 
-data
 
 data_S=data[:5000]
 
 x=data_S.iloc[:,:-1].values
 y=data_S.iloc[:,-1].values
 
-x[0]
-
-y[0]
 
 from sklearn.feature_extraction.text import CountVectorizer
 cv=CountVectorizer(max_features=5000)
 mat_body=cv.fit_transform(x[:,1]).todense()
 
-mat_body
 
 cv_head=CountVectorizer(max_features=5000)
 mat_head=cv_head.fit_transform(x[:,0]).todense()
 
-mat_head
 x_mat=np.hstack((mat_head,mat_body))
 
 #splitting the dataset
@@ -56,5 +50,5 @@ pred=cm(y_test,y_pred)
 
 accuracy_pred=(pred[0][0]+pred[1][1])/(pred[0][0]+pred[1][1]+pred[0][1]+pred[1][0])
 
-accuracy_pred
+print(accuracy_pred)
 
