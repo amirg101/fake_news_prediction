@@ -11,7 +11,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 #Data Collection
-data=pd.read_csv('/content/news.csv')
+data=pd.read_csv('news.csv')
 
 #Cleaning the data
 
