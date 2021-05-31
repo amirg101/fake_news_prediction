@@ -1,4 +1,4 @@
-# fake news prediction
+# fake news prediction (ML)
 
 ## Required packages
 
