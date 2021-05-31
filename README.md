@@ -2,7 +2,7 @@
 
 Fake news's simply means - to incorporate information that leads people to the wrong path. Nowadays fake news are spreading alot and people share this information without verifying it.
 For media outlets, the ability to attract viewers to their websites is necessary to generate online advertising revenue.
-So it is necessary to detect fake news.Here's a simple python machine learning program to detect fake news
+So it is necessary to detect fake news.Here's a simple python machine learning program using which we can detect fake news
 
 ## Required packages
 
