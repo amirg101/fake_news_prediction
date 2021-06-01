@@ -1,8 +1,7 @@
 # fake news prediction (ML)
 
 Fake news simply means - to incorporate information that leads people to the wrong path. Nowadays fake news are spreading alot and people share this information without verifying it.
-For media outlets, the ability to attract viewers to their websites is necessary to generate online advertising revenue.
-So it is necessary to detect fake news.Here's a simple python machine learning program using which we can detect fake news
+Fake news detection is a severe yet challenging problem. The rapid rise of social networking platforms has not only yielded an enormous increase in information but has also stimulated the spread of fake news. Thus, the effect of fake news has been increasing, sometimes extending to the offline world and intimidating public safety. Given a large amount of web content, automatic fake news detection is a practical solution useful to all online content providers, to reduce the human time and effort to detect and prevent the spread of fake news. 
 
 ## Required packages
 
