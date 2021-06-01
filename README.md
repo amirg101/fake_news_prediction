@@ -1,4 +1,4 @@
-# fake news prediction (ML)
+# Fake news prediction (ML)
 
 Fake news simply means - to incorporate information that leads people to the wrong path. Nowadays fake news is spreading a lot and people share this information without verifying it. 
 
